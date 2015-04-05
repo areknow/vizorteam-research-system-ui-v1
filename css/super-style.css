@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    padding:0;
+    margin:0;
+}
+body {
+    padding:0;
+    margin:0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+}
+.background {
+    background-color: #f1f1f1;
+    background-image:url(../res/bg4.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+.background-flat {
+    background-color: #d6d6d6;
+/*
+    background-image:url(../res/solid_@2X.png);
+    background-size: 50px 50px;
+    background-repeat: repeat;
+*/
+}
+.footer {
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center;
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    color: #5f5f5f !important;
+    line-height:  2.5em !important;
+    cursor: pointer;
+    width: 180px;
+    margin: auto;
+}
+.login-foot {
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center;
+    font-size: 12px !important;
+    font-weight: 100 !important;
+    color: #e8e8e8 !important;
+    line-height:  2.5em !important;
+    cursor: pointer;
+    width: 180px;
+    position: absolute;
+    bottom: 0px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+}
+.footer-fix {
+    padding-top: 10px;
+}
+.center {
+    text-align: center;
+}
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.spacer-20 {
+    width: auto;
+    height: 20px;
+} 
+.gray {
+    color: #808080;
+}
+.inline {
+    display: inline-block;
+}
+.red {
+    color: #aa0202;
+}
+.green {
+    color: green;
+}
+.white {
+    color: #fff!important;
+}
+
+ 
+input#f19.LV_valid_field {
+    background: rgba(41, 230, 41, 0.3);
+}
+    
+input#f19.LV_invalid_field {
+    background: rgba(230, 41, 41, 0.3);
+}
+
+
